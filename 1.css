@@ -70,7 +70,7 @@ form.layout
 @font-face
 {
     font-family: 'Pictos';
-    src: url("/fonts/pictos.eot?iefix");
+    src: url("pictos.eot?iefix");
     src: local("Pictos"),url("pictos.woff") format("woff"),url("pictos.ttf") format("truetype"),url("pictos.svg#webfontIyfZbseF") format("svg");
     font-weight: normal;
     font-style: normal;
