@@ -799,7 +799,7 @@ var PublicForm = Class.create({
     }, getFieldLI: function (field) {
         var count = 0; var parent = field.parentNode; while (count < 100) {
             if (parent.tagName.toLowerCase() == 'li' && parent.id.startsWith('fo')) { return $(parent); }
-            count = count + 1; parent = parent.parentNode; if (parent.tagName.toLowerCase() == 'body') count = count + 100;
+            //count = count + 1; parent = parent.parentNode; if (parent.tagName.toLowerCase() == 'body') count = count + 100;
         }
         return field;
     }, tabToInput: function (event) {
