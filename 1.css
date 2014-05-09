@@ -1133,6 +1133,7 @@ form li.likert
     border: 1px solid #dedede;
     border-bottom: none;
     background: #fff;
+    font-size: 85%;
 }
 
 .likert caption
